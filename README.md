@@ -57,7 +57,7 @@ Soy un profesional versátil con una combinación única de rigor técnico y ges
 Alineemos tu visión estratégica con soluciones tecnológicas de primer nivel:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Javier_Alburges-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javieralburges/)
-[![Website](https://img.shields.io/badge/Sitio_Web-Portafolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://gearsoftca.com/)
+[![Website](https://img.shields.io/badge/Sitio_Web-Portafolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://javieralburges.vercel.app/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Contactar-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/584127521730)
 [![Email](https://img.shields.io/badge/Email-javieralburges%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:javieralburges@gmail.com)
 
