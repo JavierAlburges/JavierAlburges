@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" role="img" aria-label="Ing. Javier Alburges - CEO de GearSoftCA, Ingeniero Mecánico, Especialista en IA y Desarrollador Full-Stack">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03060E" />
+      <stop offset="55%" stop-color="#081024" />
+      <stop offset="100%" stop-color="#111C42" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9AECED" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#9AECED" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2" />
+    </linearGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9AECED" stop-opacity="0.24" />
+      <stop offset="65%" stop-color="#131D47" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#03060E" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9AECED" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+    <clipPath id="cardClip">
+      <rect x="8" y="8" width="1184" height="284" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .spin-slow {
+      transform-origin: 155px 150px;
+      animation: spinCW 34s linear infinite;
+    }
+    .spin-rev {
+      transform-origin: 155px 150px;
+      animation: spinCCW 22s linear infinite;
+    }
+    .pulse-dot {
+      animation: pulseOpacity 2.2s ease-in-out infinite;
+    }
+    .scan-beam {
+      animation: scanMove 6s ease-in-out infinite;
+    }
+    @keyframes spinCW {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spinCCW {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes pulseOpacity {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes scanMove {
+      0% { transform: translateX(-200px); opacity: 0; }
+      15% { opacity: 0.35; }
+      85% { opacity: 0.35; }
+      100% { transform: translateX(1200px); opacity: 0; }
+    }
+    .title-font {
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .mono-font {
+      font-family: 'Consolas', 'Cascadia Code', 'Fira Code', ui-monospace, monospace;
+    }
+  </style>
+
+  <!-- Outer Card Base -->
+  <rect x="8" y="8" width="1184" height="284" rx="14" fill="url(#bgGrad)" stroke="#9AECED" stroke-opacity="0.28" stroke-width="1.5" />
+
+  <!-- Grid & Ambient Glow -->
+  <g clip-path="url(#cardClip)">
+    <rect x="8" y="8" width="1184" height="284" fill="url(#techGrid)" />
+    <circle cx="155" cy="150" r="145" fill="url(#glowCenter)" />
+    <circle cx="1020" cy="60" r="180" fill="url(#glowCenter)" opacity="0.5" />
+
+    <!-- Subtle Circuit Traces -->
+    <path d="M 275 85 L 320 85 L 340 65 L 1160 65" fill="none" stroke="#9AECED" stroke-opacity="0.12" stroke-width="1" />
+    <path d="M 275 215 L 330 215 L 350 232 L 1160 232" fill="none" stroke="#9AECED" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Subtle Sweeping Scanline Highlight -->
+    <rect class="scan-beam" x="0" y="8" width="140" height="284" fill="url(#cyanGrad)" opacity="0.06" />
+  </g>
+
+  <!-- HUD Corner Brackets -->
+  <path d="M 8 32 L 8 8 L 32 8" fill="none" stroke="#9AECED" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 1168 8 L 1192 8 L 1192 32" fill="none" stroke="#9AECED" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 8 268 L 8 292 L 32 292" fill="none" stroke="#9AECED" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 1168 292 L 1192 292 L 1192 268" fill="none" stroke="#9AECED" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Left Orbital HUD Emblem (Engineering Gear + Code Core) -->
+  <g>
+    <circle class="spin-slow" cx="155" cy="150" r="88" fill="none" stroke="#9AECED" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="10 7" />
+    <circle class="spin-rev" cx="155" cy="150" r="72" fill="none" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="28 12 6 12" />
+    <circle cx="155" cy="150" r="56" fill="#070E20" stroke="#9AECED" stroke-width="2" />
+    <!-- Precision Gear Ring Inside -->
+    <g transform="translate(155, 150)" fill="none" stroke="#9AECED" stroke-width="2" stroke-linejoin="round">
+      <circle cx="0" cy="0" r="30" stroke-opacity="0.35" stroke-dasharray="4 4" />
+      <!-- Code Brackets </ > inside Core -->
+      <path d="M -14 -8 L -24 0 L -14 8" stroke="#9AECED" stroke-width="3" stroke-linecap="round" />
+      <path d="M 14 -8 L 24 0 L 14 8" stroke="#9AECED" stroke-width="3" stroke-linecap="round" />
+      <path d="M 5 -13 L -5 13" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" />
+    </g>
+    <!-- Small HUD Nodes -->
+    <circle cx="155" cy="62" r="3" fill="#9AECED" />
+    <circle cx="155" cy="238" r="3" fill="#9AECED" />
+  </g>
+
+  <!-- Top Telemetry Header -->
+  <g>
+    <circle class="pulse-dot" cx="298" cy="40" r="4.5" fill="#9AECED" />
+    <text x="312" y="44" fill="#9AECED" font-size="12" font-weight="700" letter-spacing="2" class="mono-font">
+      SYS.ONLINE // MARACAIBO, VENEZUELA · LATAM
+    </text>
+    <rect x="945" y="25" width="215" height="24" rx="5" fill="#131D47" fill-opacity="0.7" stroke="#9AECED" stroke-opacity="0.4" stroke-width="1" />
+    <text x="1052.5" y="41" text-anchor="middle" fill="#9AECED" font-size="11" font-weight="700" letter-spacing="1.5" class="mono-font">
+      CEO @ GEARSOFTCA
+    </text>
+  </g>
+
+  <!-- Main Identity -->
+  <text x="295" y="114" fill="#FFFFFF" font-size="44" font-weight="800" letter-spacing="1.5" class="title-font">
+    ING. JAVIER <tspan fill="#9AECED">ALBURGES</tspan>
+  </text>
+
+  <!-- Executive & Technical Headline -->
+  <text x="297" y="150" fill="#E2E8F0" font-size="18.5" font-weight="600" letter-spacing="0.4" class="title-font">
+    Ingeniero Mecánico  ·  Especialista en IA  ·  Desarrollador Full-Stack &amp; Mobile
+  </text>
+
+  <text x="297" y="182" fill="#94A3B8" font-size="15" font-weight="400" class="title-font">
+    Fusiono el rigor de la ingeniería y la gerencia de proyectos con software escalable, ERP e Inteligencia Artificial.
+  </text>
+
+  <!-- Bottom Credential Pills -->
+  <g transform="translate(295, 245)">
+    <rect x="0" y="0" width="185" height="28" rx="6" fill="#0D1633" stroke="#9AECED" stroke-opacity="0.35" stroke-width="1" />
+    <text x="92.5" y="18" text-anchor="middle" fill="#9AECED" font-size="11.5" font-weight="700" letter-spacing="0.8" class="mono-font">
+      MSc. PROYECTOS (URBE)
+    </text>
+
+    <rect x="197" y="0" width="160" height="28" rx="6" fill="#0D1633" stroke="#9AECED" stroke-opacity="0.35" stroke-width="1" />
+    <text x="277" y="18" text-anchor="middle" fill="#9AECED" font-size="11.5" font-weight="700" letter-spacing="0.8" class="mono-font">
+      SCRUM MASTER
+    </text>
+
+    <rect x="369" y="0" width="198" height="28" rx="6" fill="#0D1633" stroke="#9AECED" stroke-opacity="0.35" stroke-width="1" />
+    <text x="468" y="18" text-anchor="middle" fill="#9AECED" font-size="11.5" font-weight="700" letter-spacing="0.8" class="mono-font">
+      AUDITOR ISO 9001:2015
+    </text>
+
+    <rect x="579" y="0" width="210" height="28" rx="6" fill="#0D1633" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1" />
+    <text x="684" y="18" text-anchor="middle" fill="#E0F2FE" font-size="11.5" font-weight="700" letter-spacing="0.8" class="mono-font">
+      VENECAPITAL VALIDATED
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 185" width="100%" role="img" aria-label="Pilares de Liderazgo e Ingeniería de Javier Alburges">
+  <defs>
+    <linearGradient id="pillarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050914" />
+      <stop offset="100%" stop-color="#0D1736" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-font {
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .mono-font {
+      font-family: 'Consolas', 'Cascadia Code', 'Fira Code', ui-monospace, monospace;
+    }
+  </style>
+
+  <!-- Pillar 1 -->
+  <g transform="translate(8, 8)">
+    <rect width="380" height="169" rx="10" fill="url(#pillarBg)" stroke="#9AECED" stroke-opacity="0.28" stroke-width="1.3" />
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#9AECED" stroke-width="2" />
+    <path d="M 364 169 L 380 169 L 380 153" fill="none" stroke="#9AECED" stroke-width="2" />
+    <text x="22" y="32" fill="#9AECED" font-size="12" font-weight="700" letter-spacing="1.4" class="mono-font">01 // LIDERAZGO &amp; ESTRATEGIA</text>
+    <line x1="22" y1="44" x2="358" y2="44" stroke="#9AECED" stroke-opacity="0.18" stroke-width="1" />
+    <text x="22" y="70" fill="#FFFFFF" font-size="16" font-weight="700" class="title-font">CEO, Product Owner &amp; Scrum Master</text>
+    <text x="22" y="99" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Dirección de GearSoftCA y BHT Soluciones</text>
+    <text x="22" y="123" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Equipos multidisciplinarios (Scrum / Kanban)</text>
+    <text x="22" y="147" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Maestría en Gerencia de Proyectos (URBE)</text>
+  </g>
+
+  <!-- Pillar 2 -->
+  <g transform="translate(410, 8)">
+    <rect width="380" height="169" rx="10" fill="url(#pillarBg)" stroke="#9AECED" stroke-opacity="0.28" stroke-width="1.3" />
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#9AECED" stroke-width="2" />
+    <path d="M 364 169 L 380 169 L 380 153" fill="none" stroke="#9AECED" stroke-width="2" />
+    <text x="22" y="32" fill="#9AECED" font-size="12" font-weight="700" letter-spacing="1.4" class="mono-font">02 // ARQUITECTURA &amp; IA</text>
+    <line x1="22" y1="44" x2="358" y2="44" stroke="#9AECED" stroke-opacity="0.18" stroke-width="1" />
+    <text x="22" y="70" fill="#FFFFFF" font-size="16" font-weight="700" class="title-font">Full-Stack, Mobile &amp; Agentes IA</text>
+    <text x="22" y="99" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Next.js, TypeScript, Python (FastAPI) &amp; Cloud</text>
+    <text x="22" y="123" fill="#CBD5E1" font-size="13.5" class="title-font">▪ React Native, Expo, Kotlin Nativo &amp; Flutter</text>
+    <text x="22" y="147" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Integración LLM, Agentes &amp; Consultoría IA</text>
+  </g>
+
+  <!-- Pillar 3 -->
+  <g transform="translate(812, 8)">
+    <rect width="380" height="169" rx="10" fill="url(#pillarBg)" stroke="#9AECED" stroke-opacity="0.28" stroke-width="1.3" />
+    <path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#9AECED" stroke-width="2" />
+    <path d="M 364 169 L 380 169 L 380 153" fill="none" stroke="#9AECED" stroke-width="2" />
+    <text x="22" y="32" fill="#9AECED" font-size="12" font-weight="700" letter-spacing="1.4" class="mono-font">03 // RIGOR DE INGENIERÍA &amp; ERP</text>
+    <line x1="22" y1="44" x2="358" y2="44" stroke="#9AECED" stroke-opacity="0.18" stroke-width="1" />
+    <text x="22" y="70" fill="#FFFFFF" font-size="16" font-weight="700" class="title-font">Precisión Industrial &amp; Calidad ISO</text>
+    <text x="22" y="99" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Ingeniero Mecánico (LUZ) · Diseño STPCV</text>
+    <text x="22" y="123" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Auditor Interno ISO 9001:2015 (Fondonorma)</text>
+    <text x="22" y="147" fill="#CBD5E1" font-size="13.5" class="title-font">▪ Sistemas Odoo ERP/CRM &amp; Procesos Críticos</text>
+  </g>
+</svg>

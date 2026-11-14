@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 245" width="100%" role="img" aria-label="Validación Institucional, Aceleración y Conferencias de Javier Alburges">
+  <defs>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040711" />
+      <stop offset="100%" stop-color="#0C1530" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1736" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#060B1A" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-font {
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .mono-font {
+      font-family: 'Consolas', 'Cascadia Code', 'Fira Code', ui-monospace, monospace;
+    }
+  </style>
+
+  <!-- Outer Panel -->
+  <rect x="8" y="8" width="1184" height="229" rx="12" fill="url(#panelGrad)" stroke="#9AECED" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- Corner Accents -->
+  <path d="M 8 26 L 8 8 L 26 8" fill="none" stroke="#9AECED" stroke-width="2" />
+  <path d="M 1174 8 L 1192 8 L 1192 26" fill="none" stroke="#9AECED" stroke-width="2" />
+  <path d="M 8 219 L 8 237 L 26 237" fill="none" stroke="#9AECED" stroke-width="2" />
+  <path d="M 1174 237 L 1192 237 L 1192 219" fill="none" stroke="#9AECED" stroke-width="2" />
+
+  <!-- Header -->
+  <circle cx="34" cy="34" r="4" fill="#9AECED" />
+  <text x="48" y="39" fill="#9AECED" font-size="13" font-weight="700" letter-spacing="1.6" class="mono-font">
+    ECOSISTEMA, RESPALDO INSTITUCIONAL &amp; RECONOCIMIENTOS
+  </text>
+  <line x1="28" y1="54" x2="1172" y2="54" stroke="#9AECED" stroke-opacity="0.16" stroke-width="1" />
+
+  <!-- Row 1 (3 Cards) -->
+  <!-- Card 1: Venecapital -->
+  <g transform="translate(28, 70)">
+    <rect width="368" height="68" rx="8" fill="url(#cardGrad)" stroke="#9AECED" stroke-opacity="0.22" stroke-width="1" />
+    <rect x="0" y="14" width="3.5" height="40" rx="1.5" fill="#9AECED" />
+    <text x="20" y="29" fill="#FFFFFF" font-size="15.5" font-weight="700" class="title-font">Venecapital</text>
+    <text x="20" y="50" fill="#9AECED" font-size="12" font-weight="600" class="mono-font">EMPRESA VALIDADA · GEARSOFTCA</text>
+  </g>
+
+  <!-- Card 2: Sambil Emprende 2025 -->
+  <g transform="translate(416, 70)">
+    <rect width="368" height="68" rx="8" fill="url(#cardGrad)" stroke="#9AECED" stroke-opacity="0.22" stroke-width="1" />
+    <rect x="0" y="14" width="3.5" height="40" rx="1.5" fill="#9AECED" />
+    <text x="20" y="29" fill="#FFFFFF" font-size="15.5" font-weight="700" class="title-font">Sambil Emprende 2025</text>
+    <text x="20" y="50" fill="#9AECED" font-size="12" font-weight="600" class="mono-font">SEMIFINALISTA NACIONAL · SERVICIOEXPRESS</text>
+  </g>
+
+  <!-- Card 3: Shark Bank Bancaribe -->
+  <g transform="translate(804, 70)">
+    <rect width="368" height="68" rx="8" fill="url(#cardGrad)" stroke="#9AECED" stroke-opacity="0.22" stroke-width="1" />
+    <rect x="0" y="14" width="3.5" height="40" rx="1.5" fill="#9AECED" />
+    <text x="20" y="29" fill="#FFFFFF" font-size="15.5" font-weight="700" class="title-font">Shark Bank — Bancaribe</text>
+    <text x="20" y="50" fill="#9AECED" font-size="12" font-weight="600" class="mono-font">SELECCIONADO · ACELERACIÓN FINTECH</text>
+  </g>
+
+  <!-- Row 2 (3 Cards) -->
+  <!-- Card 4: Banesco Innova -->
+  <g transform="translate(28, 152)">
+    <rect width="368" height="68" rx="8" fill="url(#cardGrad)" stroke="#9AECED" stroke-opacity="0.22" stroke-width="1" />
+    <rect x="0" y="14" width="3.5" height="40" rx="1.5" fill="#38BDF8" />
+    <text x="20" y="29" fill="#FFFFFF" font-size="15.5" font-weight="700" class="title-font">Banesco Innova</text>
+    <text x="20" y="50" fill="#7DD3FC" font-size="12" font-weight="600" class="mono-font">SELECCIONADO · INNOVACIÓN ABIERTA</text>
+  </g>
+
+  <!-- Card 5: Congreso REDIE-LUZ -->
+  <g transform="translate(416, 152)">
+    <rect width="368" height="68" rx="8" fill="url(#cardGrad)" stroke="#9AECED" stroke-opacity="0.22" stroke-width="1" />
+    <rect x="0" y="14" width="3.5" height="40" rx="1.5" fill="#38BDF8" />
+    <text x="20" y="29" fill="#FFFFFF" font-size="15.5" font-weight="700" class="title-font">Congreso Científico REDIE-LUZ</text>
+    <text x="20" y="50" fill="#7DD3FC" font-size="12" font-weight="600" class="mono-font">PONENTE INVESTIGADOR · IA &amp; SOFTWARE</text>
+  </g>
+
+  <!-- Card 6: Venezuela Tech Week -->
+  <g transform="translate(804, 152)">
+    <rect width="368" height="68" rx="8" fill="url(#cardGrad)" stroke="#9AECED" stroke-opacity="0.22" stroke-width="1" />
+    <rect x="0" y="14" width="3.5" height="40" rx="1.5" fill="#38BDF8" />
+    <text x="20" y="29" fill="#FFFFFF" font-size="15.5" font-weight="700" class="title-font">Venezuela Tech Week (Caracas)</text>
+    <text x="20" y="50" fill="#7DD3FC" font-size="12" font-weight="600" class="mono-font">INVITADO ESPECIAL · TECH &amp; NEGOCIOS</text>
+  </g>
+</svg>
